@@ -8,5 +8,7 @@ public class StealthAgentSimTarget : TargetRules
 	public StealthAgentSimTarget(TargetInfo Target) : base (Target)
 	{
 		Type = TargetType.Game;
+
+		ExtraModuleNames.Add("StealthAgentSim");
 	}
 }
