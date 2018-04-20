@@ -8,5 +8,10 @@ public class StealthAgentSimEditorTarget : TargetRules
 	public StealthAgentSimEditorTarget(TargetInfo Target) : base (Target)
 	{
 		Type = TargetType.Editor;
+
+		ExtraModuleNames.Add("StealthAgentSim");
+
+        bUseUnityBuild = false;
+        bUsePCHFiles = false;
 	}
 }
