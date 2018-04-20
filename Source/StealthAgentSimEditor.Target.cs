@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class StealthAgentSimEditorTarget : TargetRules
 {
-	public StealthAgentSimEditorTarget(TargetInfo Target)
+	public StealthAgentSimEditorTarget(TargetInfo Target) : base (Target)
 	{
 		Type = TargetType.Editor;
 	}

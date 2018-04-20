@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class StealthAgentSimTarget : TargetRules
 {
-	public StealthAgentSimTarget(TargetInfo Target)
+	public StealthAgentSimTarget(TargetInfo Target) : base (Target)
 	{
 		Type = TargetType.Game;
 	}
