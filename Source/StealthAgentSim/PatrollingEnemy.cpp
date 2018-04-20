@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "StealthAgentSim.h"
 #include "PatrollingEnemy.h"
+#include "StealthAgentSim.h"
 #include "PlayerCharacter.h"
 
 

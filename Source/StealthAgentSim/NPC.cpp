@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "StealthAgentSim.h"
 #include "NPC.h"
 #include "PaperSpriteComponent.h"
+#include "StealthAgentSim.h"
 #include "NPC_AIController.h"
 
 

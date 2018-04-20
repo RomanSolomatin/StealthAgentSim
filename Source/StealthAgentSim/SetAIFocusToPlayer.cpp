@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "StealthAgentSim.h"
 #include "SetAIFocusToPlayer.h"
+#include "StealthAgentSim.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "NPC_AIController.h"
 
